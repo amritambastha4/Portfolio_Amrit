@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Amrit - Developer Portfolio</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+body{
+    background-color: rgb(0 , 0, 33);
+    color: white;
+    font-family: 'poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(30, 30, 228);
+}
+nav ul{
+    display: flex;
+    justify-content: centre;
+
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a{
+    color: lavender;
+    font-size: 1.01rem;
+}
+
+main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 60px 84px
+}
+
+.left{
+    font-size: 1.5rem;
+}
+
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 70px 0;
+}
+
+.firstSection > div{
+    width: 30%;
+}
+
+
+.leftSection  {
+    font-size: 3rem;
+    margin: 70px 0;
+}
+.leftSection .buttons{
+    padding: 22px;
+}
+.leftSection .btn {
+    padding: 12px;
+    background: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.rightSection img{
+    width: 80%;
+    margin: 50px 0;
+}
+
+.purple{
+    color:brown;
+}
+.text-gray{
+    color: gray;
+}
+#element{
+    color:brown;
+}
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.fontsize
+{ 
+        1.9rem;
+}
+
+.secondSection .box {
+    background: white;
+    width: 90vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondSection .vertical{
+    height: 93px;
+    width: 1px;
+    background: white;
+    margin: 0 100px;
+}
+
+.image-top{
+    width: 300px;
+    position: relative;
+    top: -25px;
+    left: -76px;
+}
+
+.vertical-title{
+    position: relative;
+    top: 75px;
+    width: 189px;
+    font-size: 14px;
+}
+
+.vertical-desc{
+    position: relative;
+    top: 86px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;
+}
+
+.footer{
+    display: flex;
+}
+    
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Amrit's Portfolio</div>
+            <div class="right">
+                <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Projects</a></li>
+                <li><a href="/">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Amrit Ambastha</span>  
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Github</button>
+                </div>
+
+            </div>
+            <div class="rightSection">
+<img src="bg.pmg.gif" alt="Web developer"
+            </div>
+        </section>
+<hr>
+        <section class="secondsection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+            <div class="vertical">
+                <img class="image-top" src="web-developer.png" alt="">
+                <div class="vertical-text">
+                    HTML Developer (2020-2021)
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit corrupti quam id, laudantium omnis inventore officia laborum vel perspiciatis sint velit aspernatur ratione. Quam, vero ipsam. Facere reprehenderit atque at.
+                </div>
+
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="web-developer.png" alt="">
+                <div class="vertical-text">
+                    Node.js Developer (2021-2022)
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit corrupti quam id, laudantium omnis inventore officia laborum vel perspiciatis sint velit aspernatur ratione. Quam, vero ipsam. Facere reprehenderit atque at.
+                </div>
+
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="web-developer.png" alt="">
+                <div class="vertical-text">
+                    HTML Developer (2020-2021)
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit corrupti quam id, laudantium omnis inventore officia laborum vel perspiciatis sint velit aspernatur ratione. Quam, vero ipsam. Facere reprehenderit atque at.
+                </div>
+
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="web-developer.png" alt="">
+                <div class="vertical-text">
+                    HTML Developer (2020-2021)
+                </div>
+                <div class="vertical-desc">
+                </div>
+
+            </div>
+                
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3></h3>
+            </div>
+            <div class="footer-second"></div>
+            <div class="footer-third"></div>
+            <div class="footer-fourth"></div>
+        </div>
+    </footer>
+    
+    
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web developer', 'Computer geek exploring devices', 'Video editor'],
+            typeSpeed: 50,
+        });
+        </script>
+</body>
+</html>
+    
+    
